@@ -17,10 +17,14 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
-        <h1 className="title">Next.js Chat Demo</h1>
+      <main className={styles.main}>
+        <h1 className={styles.title}>Los Kaiza Chat App</h1>
         <AblyChatComponent />
       </main>
+
+      <footer className={styles.footer}>
+        <p>Developed by Agustin Moya</p>
+      </footer>
     </div>
   );
 };
